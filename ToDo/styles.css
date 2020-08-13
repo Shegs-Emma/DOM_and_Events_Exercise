@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#navHeader{
+    font-family: 'Lemonada', cursive;
+}
+
+article{
+    width: 50%;
+    text-align: center;
+}
+
+#main_header{
+    font-family: 'Lora', serif;
+}
+
+form input{
+    width: 50%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 188, 188);
+}
+
+#myBtn{
+    margin-left: 10px;
+}
+
+section{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+section div{
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(195, 188, 188);
+}
+
+.checker{
+    margin-top: 5px;
+}
+
+.itemStroke{
+    text-decoration: line-through;
+}
